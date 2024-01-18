@@ -1,0 +1,6 @@
+name: miwi
+kits:
+  food:
+    cooldown: 1705083971286
+    one_time: false
+    bought: false

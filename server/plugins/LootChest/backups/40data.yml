@@ -1,0 +1,1715 @@
+chests:
+  airdrop:
+    chance:
+      '0': 20
+      '2': 80
+      '4': 20
+      '6': 60
+      '8': 90
+      '18': 5
+      '20': 100
+      '22': 30
+      '24': 40
+      '26': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: NORTH
+    holo: '&7&l&kAA&r&c&l Air&r&ldrop &7&l&kAA&r'
+    time: 20
+    protectionTime: 0
+    position:
+      world: world
+      x: -249.0
+      y: 76.0
+      z: 189.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705062767241
+    particle: CLOUD
+    randomradius: 0
+    inventory:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBazooka§e «1»
+          lore:
+          - §eRocket launcher.
+          - §eFire down at your
+          - §efeet to rocket-jump.
+          - §eNegates fall damage.
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCocoPops§e
+          lore:
+          - §eA cluster bomb that releases
+          - §e10 bomblets upon detonation.
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §ePython §l/§e Knife§e ▪ «6»
+          lore:
+          - §eRevolver with high power.
+          - §eLeft click to melee enemies
+          - §ewith the tactical knife.
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTrinket§e «?»
+          lore:
+          - §eLeft-click to set the owner.
+          - '§eExplodes when:'
+          - §e- picked up
+          - §e- shot out of a dispenser
+          - §e- a chest containing this item is opened
+          - §e- placed in an item frame, and nearby
+          - §e ...pressure plates are stepped on.
+          - §e§oOwners cannot trigger their own traps.
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAK-47§e ▪ «30»
+          lore:
+          - §eFully automatic with high power.
+          - §eEffective at medium range.
+          - §eControls are inverted.
+      '18':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '22':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+      '24':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '26':
+        ==: org.bukkit.inventory.ItemStack
+        type: LEVER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eC4§e «2»
+          lore:
+          - §eRemote explosives.
+          - §eRight click to place.
+          - §eLeft click to detonate.
+  airdrop2:
+    chance:
+      '13': 100
+      '0': 20
+      '2': 80
+      '4': 20
+      '6': 60
+      '8': 90
+      '18': 5
+      '20': 100
+      '22': 30
+      '24': 40
+      '26': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: EAST
+    holo: '&7&l&kAA&r&c&l Air&r&ldrop &7&l&kAA&r'
+    time: 20
+    protectionTime: 0
+    position:
+      world: world
+      x: -177.0
+      y: 66.0
+      z: 195.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705062767233
+    particle: CLOUD
+    randomradius: 0
+    inventory:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBazooka§e «1»
+          lore:
+          - §eRocket launcher.
+          - §eFire down at your
+          - §efeet to rocket-jump.
+          - §eNegates fall damage.
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCocoPops§e
+          lore:
+          - §eA cluster bomb that releases
+          - §e10 bomblets upon detonation.
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §ePython §l/§e Knife§e ▪ «6»
+          lore:
+          - §eRevolver with high power.
+          - §eLeft click to melee enemies
+          - §ewith the tactical knife.
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTrinket§e «?»
+          lore:
+          - §eLeft-click to set the owner.
+          - '§eExplodes when:'
+          - §e- picked up
+          - §e- shot out of a dispenser
+          - §e- a chest containing this item is opened
+          - §e- placed in an item frame, and nearby
+          - §e ...pressure plates are stepped on.
+          - §e§oOwners cannot trigger their own traps.
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAK-47§e ▪ «30»
+          lore:
+          - §eFully automatic with high power.
+          - §eEffective at medium range.
+          - §eControls are inverted.
+      '18':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '22':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+      '24':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '26':
+        ==: org.bukkit.inventory.ItemStack
+        type: LEVER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eC4§e «2»
+          lore:
+          - §eRemote explosives.
+          - §eRight click to place.
+          - §eLeft click to detonate.
+  airdrop3:
+    chance:
+      '13': 100
+      '0': 20
+      '2': 80
+      '4': 20
+      '6': 60
+      '8': 90
+      '18': 5
+      '20': 100
+      '22': 30
+      '24': 40
+      '26': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: WEST
+    holo: '&7&l&kAA&r&c&l Air&r&ldrop &7&l&kAA&r'
+    time: 20
+    protectionTime: 0
+    position:
+      world: world
+      x: -221.0
+      y: 64.0
+      z: 60.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705062767262
+    particle: CLOUD
+    randomradius: 0
+    inventory:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBazooka§e «1»
+          lore:
+          - §eRocket launcher.
+          - §eFire down at your
+          - §efeet to rocket-jump.
+          - §eNegates fall damage.
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCocoPops§e
+          lore:
+          - §eA cluster bomb that releases
+          - §e10 bomblets upon detonation.
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §ePython §l/§e Knife§e ▪ «6»
+          lore:
+          - §eRevolver with high power.
+          - §eLeft click to melee enemies
+          - §ewith the tactical knife.
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTrinket§e «?»
+          lore:
+          - §eLeft-click to set the owner.
+          - '§eExplodes when:'
+          - §e- picked up
+          - §e- shot out of a dispenser
+          - §e- a chest containing this item is opened
+          - §e- placed in an item frame, and nearby
+          - §e ...pressure plates are stepped on.
+          - §e§oOwners cannot trigger their own traps.
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAK-47§e ▪ «30»
+          lore:
+          - §eFully automatic with high power.
+          - §eEffective at medium range.
+          - §eControls are inverted.
+      '18':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '22':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+      '24':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '26':
+        ==: org.bukkit.inventory.ItemStack
+        type: LEVER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eC4§e «2»
+          lore:
+          - §eRemote explosives.
+          - §eRight click to place.
+          - §eLeft click to detonate.
+  airdrop4:
+    chance:
+      '13': 100
+      '0': 20
+      '2': 80
+      '4': 20
+      '6': 60
+      '8': 90
+      '18': 5
+      '20': 100
+      '22': 30
+      '24': 40
+      '26': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: NORTH
+    holo: '&7&l&kAA&r&c&l Air&r&ldrop &7&l&kAA&r'
+    time: 20
+    protectionTime: 0
+    position:
+      world: world
+      x: -334.0
+      y: 63.0
+      z: 113.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705062767222
+    particle: CLOUD
+    randomradius: 0
+    inventory:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBazooka§e «1»
+          lore:
+          - §eRocket launcher.
+          - §eFire down at your
+          - §efeet to rocket-jump.
+          - §eNegates fall damage.
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCocoPops§e
+          lore:
+          - §eA cluster bomb that releases
+          - §e10 bomblets upon detonation.
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §ePython §l/§e Knife§e ▪ «6»
+          lore:
+          - §eRevolver with high power.
+          - §eLeft click to melee enemies
+          - §ewith the tactical knife.
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTrinket§e «?»
+          lore:
+          - §eLeft-click to set the owner.
+          - '§eExplodes when:'
+          - §e- picked up
+          - §e- shot out of a dispenser
+          - §e- a chest containing this item is opened
+          - §e- placed in an item frame, and nearby
+          - §e ...pressure plates are stepped on.
+          - §e§oOwners cannot trigger their own traps.
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAK-47§e ▪ «30»
+          lore:
+          - §eFully automatic with high power.
+          - §eEffective at medium range.
+          - §eControls are inverted.
+      '18':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '22':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+      '24':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '26':
+        ==: org.bukkit.inventory.ItemStack
+        type: LEVER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eC4§e «2»
+          lore:
+          - §eRemote explosives.
+          - §eRight click to place.
+          - §eLeft click to detonate.
+  airdrop5:
+    chance:
+      '13': 100
+      '0': 20
+      '2': 80
+      '4': 20
+      '6': 60
+      '8': 90
+      '18': 5
+      '20': 100
+      '22': 30
+      '24': 40
+      '26': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: NORTH
+    holo: '&7&l&kAA&r&c&l Air&r&ldrop &7&l&kAA&r'
+    time: 20
+    protectionTime: 0
+    position:
+      world: world
+      x: -411.0
+      y: 71.0
+      z: 204.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705062767269
+    particle: CLOUD
+    randomradius: 0
+    inventory:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBazooka§e «1»
+          lore:
+          - §eRocket launcher.
+          - §eFire down at your
+          - §efeet to rocket-jump.
+          - §eNegates fall damage.
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCocoPops§e
+          lore:
+          - §eA cluster bomb that releases
+          - §e10 bomblets upon detonation.
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §ePython §l/§e Knife§e ▪ «6»
+          lore:
+          - §eRevolver with high power.
+          - §eLeft click to melee enemies
+          - §ewith the tactical knife.
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTrinket§e «?»
+          lore:
+          - §eLeft-click to set the owner.
+          - '§eExplodes when:'
+          - §e- picked up
+          - §e- shot out of a dispenser
+          - §e- a chest containing this item is opened
+          - §e- placed in an item frame, and nearby
+          - §e ...pressure plates are stepped on.
+          - §e§oOwners cannot trigger their own traps.
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAK-47§e ▪ «30»
+          lore:
+          - §eFully automatic with high power.
+          - §eEffective at medium range.
+          - §eControls are inverted.
+      '18':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '22':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+      '24':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '26':
+        ==: org.bukkit.inventory.ItemStack
+        type: LEVER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eC4§e «2»
+          lore:
+          - §eRemote explosives.
+          - §eRight click to place.
+          - §eLeft click to detonate.
+  airdrop6:
+    chance:
+      '13': 100
+      '0': 20
+      '2': 80
+      '4': 20
+      '6': 60
+      '8': 90
+      '18': 5
+      '20': 100
+      '22': 30
+      '24': 40
+      '26': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: NORTH
+    holo: '&7&l&kAA&r&c&l Air&r&ldrop &7&l&kAA&r'
+    time: 20
+    protectionTime: 0
+    position:
+      world: world
+      x: -303.0
+      y: 68.0
+      z: 276.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705062767250
+    particle: CLOUD
+    randomradius: 0
+    inventory:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBazooka§e «1»
+          lore:
+          - §eRocket launcher.
+          - §eFire down at your
+          - §efeet to rocket-jump.
+          - §eNegates fall damage.
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eCocoPops§e
+          lore:
+          - §eA cluster bomb that releases
+          - §e10 bomblets upon detonation.
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §ePython §l/§e Knife§e ▪ «6»
+          lore:
+          - §eRevolver with high power.
+          - §eLeft click to melee enemies
+          - §ewith the tactical knife.
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTrinket§e «?»
+          lore:
+          - §eLeft-click to set the owner.
+          - '§eExplodes when:'
+          - §e- picked up
+          - §e- shot out of a dispenser
+          - §e- a chest containing this item is opened
+          - §e- placed in an item frame, and nearby
+          - §e ...pressure plates are stepped on.
+          - §e§oOwners cannot trigger their own traps.
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAK-47§e ▪ «30»
+          lore:
+          - §eFully automatic with high power.
+          - §eEffective at medium range.
+          - §eControls are inverted.
+      '18':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '22':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+      '24':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '26':
+        ==: org.bukkit.inventory.ItemStack
+        type: LEVER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eC4§e «2»
+          lore:
+          - §eRemote explosives.
+          - §eRight click to place.
+          - §eLeft click to detonate.
+  armordrop:
+    chance:
+      '13': 60
+      '9': 35
+      '11': 50
+      '15': 70
+      '17': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: NORTH
+    holo: '&7&l&kAA&r&c&l Armor&r&ldrop &7&l&kAA&r'
+    time: 25
+    protectionTime: 0
+    position:
+      world: world
+      x: -234.0
+      y: 77.0
+      z: 195.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705063101637
+    particle: SMOKE_NORMAL
+    randomradius: 0
+    inventory:
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IV Body Armor
+          lore:
+          - NIJ Level IV Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMsQrCMBRG4b+kSlpwqPgcvkPBQaHVQTo6xHptLzSJJLfgW/sKpoub44HDVwIFtrVI4Pss1PoHP5lCLAFkCrrrTofWR0FGlUKxZENm6c9NYV1bPztJ704jv05esOpHiqKx+ZlnYwnVQI4C93tr3kcyk4xJu7woGGHvEoAE/DmBL7guPP6mAAAA
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III+ Body Armor
+          lore:
+          - NIJ Level III+ Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b9GJS24sAfxDgUXCq0upAeIdbQDTWKTKbjxPp7NUxg37lw+eHwFkKOsRAKfJ6HGX/jKFGIBIFPQbbvfNj4KsvGtkH+zJpN69noqLCvrJyfpLTXmp8ELFl1PUTRWP/NgLGF9I0eBu401jx2ZQfqkHe8UjLB3CUAC/pzAB7Txa7qmAAAA
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III Body Armor
+          lore:
+          - NIJ Level III Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b+kSloQ0Tu49Q5FFxWsLqQHGOtoA00iyRS8j2fwfqYbdy4fPL4SKLCuRIK5jsKNv5m74RBLAJmCbtvDvvFRkG12CsWUR6ap3x+FeWX96CS9S438MnjBrOs5isbiZ57IMlYPdhxMt7X0qpkG6ZN2fnIgMd4lAAn4cwJfTTWUJKYAAAA=
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IIIA Body Armor
+          lore:
+          - NIJ Level IIIA Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/3XMQQrCMBSE4SmpkgZc6M5LiFcouLBgdaE9wLM+baBJJHkFT+GZjRt3Ln9m+AxQYVWLRHudhNtws3fLMRkAhYLuumbXhiTAZatQffPAlLt4rxXmtQuTzyOMRnkeg2DWD5xEY/Ezj+QYywd7jrbfOHrtmUYZsnZ6ciSxwWcAGfjzBD7FWsijpgAAAA==
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level II Body Armor
+          lore:
+          - NIJ Level II Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/+NiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGbgCA31dPHNLy5hYFh0lZmBE8T1SU0E8hlvHmFmYHPMzS/NA0oysHIwsATn5JcwsCZnpBaXcDDwws30S8xNZRBMT81LLcpM1stNrPBITcwpyQCa5l+QWpRYkpmfBzSAAWgADpUMDABV5wJrpgAAAA==
+  armordrop2:
+    chance:
+      '13': 60
+      '9': 35
+      '11': 50
+      '15': 70
+      '17': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: EAST
+    holo: '&7&l&kAA&r&c&l Armor&r&ldrop &7&l&kAA&r'
+    time: 25
+    protectionTime: 0
+    position:
+      world: world
+      x: -204.0
+      y: 66.0
+      z: 172.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705063101610
+    particle: SMOKE_NORMAL
+    randomradius: 0
+    inventory:
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IV Body Armor
+          lore:
+          - NIJ Level IV Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMsQrCMBRG4b+kSlpwqPgcvkPBQaHVQTo6xHptLzSJJLfgW/sKpoub44HDVwIFtrVI4Pss1PoHP5lCLAFkCrrrTofWR0FGlUKxZENm6c9NYV1bPztJ704jv05esOpHiqKx+ZlnYwnVQI4C93tr3kcyk4xJu7woGGHvEoAE/DmBL7guPP6mAAAA
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III+ Body Armor
+          lore:
+          - NIJ Level III+ Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b9GJS24sAfxDgUXCq0upAeIdbQDTWKTKbjxPp7NUxg37lw+eHwFkKOsRAKfJ6HGX/jKFGIBIFPQbbvfNj4KsvGtkH+zJpN69noqLCvrJyfpLTXmp8ELFl1PUTRWP/NgLGF9I0eBu401jx2ZQfqkHe8UjLB3CUAC/pzAB7Txa7qmAAAA
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III Body Armor
+          lore:
+          - NIJ Level III Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b+kSloQ0Tu49Q5FFxWsLqQHGOtoA00iyRS8j2fwfqYbdy4fPL4SKLCuRIK5jsKNv5m74RBLAJmCbtvDvvFRkG12CsWUR6ap3x+FeWX96CS9S438MnjBrOs5isbiZ57IMlYPdhxMt7X0qpkG6ZN2fnIgMd4lAAn4cwJfTTWUJKYAAAA=
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IIIA Body Armor
+          lore:
+          - NIJ Level IIIA Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/3XMQQrCMBSE4SmpkgZc6M5LiFcouLBgdaE9wLM+baBJJHkFT+GZjRt3Ln9m+AxQYVWLRHudhNtws3fLMRkAhYLuumbXhiTAZatQffPAlLt4rxXmtQuTzyOMRnkeg2DWD5xEY/Ezj+QYywd7jrbfOHrtmUYZsnZ6ciSxwWcAGfjzBD7FWsijpgAAAA==
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level II Body Armor
+          lore:
+          - NIJ Level II Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/+NiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGbgCA31dPHNLy5hYFh0lZmBE8T1SU0E8hlvHmFmYHPMzS/NA0oysHIwsATn5JcwsCZnpBaXcDDwws30S8xNZRBMT81LLcpM1stNrPBITcwpyQCa5l+QWpRYkpmfBzSAAWgADpUMDABV5wJrpgAAAA==
+  armordrop3:
+    chance:
+      '13': 60
+      '9': 35
+      '11': 50
+      '15': 70
+      '17': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: SOUTH
+    holo: '&7&l&kAA&r&c&l Armor&r&ldrop &7&l&kAA&r'
+    time: 25
+    protectionTime: 0
+    position:
+      world: world
+      x: -225.0
+      y: 64.0
+      z: 98.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705063101644
+    particle: SMOKE_NORMAL
+    randomradius: 0
+    inventory:
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IV Body Armor
+          lore:
+          - NIJ Level IV Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMsQrCMBRG4b+kSlpwqPgcvkPBQaHVQTo6xHptLzSJJLfgW/sKpoub44HDVwIFtrVI4Pss1PoHP5lCLAFkCrrrTofWR0FGlUKxZENm6c9NYV1bPztJ704jv05esOpHiqKx+ZlnYwnVQI4C93tr3kcyk4xJu7woGGHvEoAE/DmBL7guPP6mAAAA
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III+ Body Armor
+          lore:
+          - NIJ Level III+ Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b9GJS24sAfxDgUXCq0upAeIdbQDTWKTKbjxPp7NUxg37lw+eHwFkKOsRAKfJ6HGX/jKFGIBIFPQbbvfNj4KsvGtkH+zJpN69noqLCvrJyfpLTXmp8ELFl1PUTRWP/NgLGF9I0eBu401jx2ZQfqkHe8UjLB3CUAC/pzAB7Txa7qmAAAA
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III Body Armor
+          lore:
+          - NIJ Level III Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b+kSloQ0Tu49Q5FFxWsLqQHGOtoA00iyRS8j2fwfqYbdy4fPL4SKLCuRIK5jsKNv5m74RBLAJmCbtvDvvFRkG12CsWUR6ap3x+FeWX96CS9S438MnjBrOs5isbiZ57IMlYPdhxMt7X0qpkG6ZN2fnIgMd4lAAn4cwJfTTWUJKYAAAA=
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IIIA Body Armor
+          lore:
+          - NIJ Level IIIA Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/3XMQQrCMBSE4SmpkgZc6M5LiFcouLBgdaE9wLM+baBJJHkFT+GZjRt3Ln9m+AxQYVWLRHudhNtws3fLMRkAhYLuumbXhiTAZatQffPAlLt4rxXmtQuTzyOMRnkeg2DWD5xEY/Ezj+QYywd7jrbfOHrtmUYZsnZ6ciSxwWcAGfjzBD7FWsijpgAAAA==
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level II Body Armor
+          lore:
+          - NIJ Level II Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/+NiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGbgCA31dPHNLy5hYFh0lZmBE8T1SU0E8hlvHmFmYHPMzS/NA0oysHIwsATn5JcwsCZnpBaXcDDwws30S8xNZRBMT81LLcpM1stNrPBITcwpyQCa5l+QWpRYkpmfBzSAAWgADpUMDABV5wJrpgAAAA==
+  armordrop4:
+    chance:
+      '13': 60
+      '9': 35
+      '11': 50
+      '15': 70
+      '17': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: SOUTH
+    holo: '&7&l&kAA&r&c&l Armor&r&ldrop &7&l&kAA&r'
+    time: 25
+    protectionTime: 0
+    position:
+      world: world
+      x: -245.0
+      y: 63.0
+      z: 19.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705063101626
+    particle: SMOKE_NORMAL
+    randomradius: 0
+    inventory:
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IV Body Armor
+          lore:
+          - NIJ Level IV Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMsQrCMBRG4b+kSlpwqPgcvkPBQaHVQTo6xHptLzSJJLfgW/sKpoub44HDVwIFtrVI4Pss1PoHP5lCLAFkCrrrTofWR0FGlUKxZENm6c9NYV1bPztJ704jv05esOpHiqKx+ZlnYwnVQI4C93tr3kcyk4xJu7woGGHvEoAE/DmBL7guPP6mAAAA
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III+ Body Armor
+          lore:
+          - NIJ Level III+ Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b9GJS24sAfxDgUXCq0upAeIdbQDTWKTKbjxPp7NUxg37lw+eHwFkKOsRAKfJ6HGX/jKFGIBIFPQbbvfNj4KsvGtkH+zJpN69noqLCvrJyfpLTXmp8ELFl1PUTRWP/NgLGF9I0eBu401jx2ZQfqkHe8UjLB3CUAC/pzAB7Txa7qmAAAA
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III Body Armor
+          lore:
+          - NIJ Level III Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b+kSloQ0Tu49Q5FFxWsLqQHGOtoA00iyRS8j2fwfqYbdy4fPL4SKLCuRIK5jsKNv5m74RBLAJmCbtvDvvFRkG12CsWUR6ap3x+FeWX96CS9S438MnjBrOs5isbiZ57IMlYPdhxMt7X0qpkG6ZN2fnIgMd4lAAn4cwJfTTWUJKYAAAA=
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IIIA Body Armor
+          lore:
+          - NIJ Level IIIA Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/3XMQQrCMBSE4SmpkgZc6M5LiFcouLBgdaE9wLM+baBJJHkFT+GZjRt3Ln9m+AxQYVWLRHudhNtws3fLMRkAhYLuumbXhiTAZatQffPAlLt4rxXmtQuTzyOMRnkeg2DWD5xEY/Ezj+QYywd7jrbfOHrtmUYZsnZ6ciSxwWcAGfjzBD7FWsijpgAAAA==
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level II Body Armor
+          lore:
+          - NIJ Level II Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/+NiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGbgCA31dPHNLy5hYFh0lZmBE8T1SU0E8hlvHmFmYHPMzS/NA0oysHIwsATn5JcwsCZnpBaXcDDwws30S8xNZRBMT81LLcpM1stNrPBITcwpyQCa5l+QWpRYkpmfBzSAAWgADpUMDABV5wJrpgAAAA==
+  armordrop5:
+    chance:
+      '13': 60
+      '9': 35
+      '11': 50
+      '15': 70
+      '17': 80
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: EAST
+    holo: '&7&l&kAA&r&c&l Armor&r&ldrop &7&l&kAA&r'
+    time: 25
+    protectionTime: 0
+    position:
+      world: world
+      x: -314.0
+      y: 69.0
+      z: 11.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705063101630
+    particle: SMOKE_NORMAL
+    randomradius: 0
+    inventory:
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IV Body Armor
+          lore:
+          - NIJ Level IV Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMsQrCMBRG4b+kSlpwqPgcvkPBQaHVQTo6xHptLzSJJLfgW/sKpoub44HDVwIFtrVI4Pss1PoHP5lCLAFkCrrrTofWR0FGlUKxZENm6c9NYV1bPztJ704jv05esOpHiqKx+ZlnYwnVQI4C93tr3kcyk4xJu7woGGHvEoAE/DmBL7guPP6mAAAA
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III+ Body Armor
+          lore:
+          - NIJ Level III+ Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b9GJS24sAfxDgUXCq0upAeIdbQDTWKTKbjxPp7NUxg37lw+eHwFkKOsRAKfJ6HGX/jKFGIBIFPQbbvfNj4KsvGtkH+zJpN69noqLCvrJyfpLTXmp8ELFl1PUTRWP/NgLGF9I0eBu401jx2ZQfqkHe8UjLB3CUAC/pzAB7Txa7qmAAAA
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level III Body Armor
+          lore:
+          - NIJ Level III Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 2
+          internal: H4sIAAAAAAAA/3XMQQrCMBBG4b+kSloQ0Tu49Q5FFxWsLqQHGOtoA00iyRS8j2fwfqYbdy4fPL4SKLCuRIK5jsKNv5m74RBLAJmCbtvDvvFRkG12CsWUR6ap3x+FeWX96CS9S438MnjBrOs5isbiZ57IMlYPdhxMt7X0qpkG6ZN2fnIgMd4lAAn4cwJfTTWUJKYAAAA=
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level IIIA Body Armor
+          lore:
+          - NIJ Level IIIA Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/3XMQQrCMBSE4SmpkgZc6M5LiFcouLBgdaE9wLM+baBJJHkFT+GZjRt3Ln9m+AxQYVWLRHudhNtws3fLMRkAhYLuumbXhiTAZatQffPAlLt4rxXmtQuTzyOMRnkeg2DWD5xEY/Ezj+QYywd7jrbfOHrtmUYZsnZ6ciSxwWcAGfjzBD7FWsijpgAAAA==
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: Level II Body Armor
+          lore:
+          - NIJ Level II Body Armor.
+          enchants:
+            PROTECTION_PROJECTILE: 1
+          internal: H4sIAAAAAAAA/+NiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGbgCA31dPHNLy5hYFh0lZmBE8T1SU0E8hlvHmFmYHPMzS/NA0oysHIwsATn5JcwsCZnpBaXcDDwws30S8xNZRBMT81LLcpM1stNrPBITcwpyQCa5l+QWpRYkpmfBzSAAWgADpUMDABV5wJrpgAAAA==
+  opdrop:
+    chance:
+      '9': 100
+      '11': 100
+      '13': 100
+      '15': 100
+      '17': 100
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: WEST
+    holo: '&7&l&kAA&c&l OP&r&ldrop &r&7&l&kAA&r'
+    time: 75
+    protectionTime: 0
+    position:
+      world: world
+      x: -216.0
+      y: 64.0
+      z: 20.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705061566529
+    particle: ENCHANTMENT_TABLE
+    randomradius: 0
+    inventory:
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM249 SAW§e ▪ «300»
+          lore:
+          - §e'MURICA
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+  opdrop2:
+    chance:
+      '0': 100
+      '9': 100
+      '11': 100
+      '13': 100
+      '15': 100
+      '17': 100
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: NORTH
+    holo: '&7&l&kAA&c&l OP&r&ldrop &r&7&l&kAA&r'
+    time: 75
+    protectionTime: 0
+    position:
+      world: world
+      x: -176.0
+      y: 76.0
+      z: 136.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705061566547
+    particle: ENCHANTMENT_TABLE
+    randomradius: 0
+    inventory:
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM249 SAW§e ▪ «300»
+          lore:
+          - §e'MURICA
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+  opdrop3:
+    chance:
+      '13': 100
+      '9': 100
+      '11': 100
+      '15': 100
+      '17': 100
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: NORTH
+    holo: '&7&l&kAA&c&l OP&r&ldrop &r&7&l&kAA&r'
+    time: 75
+    protectionTime: 0
+    position:
+      world: world
+      x: -295.0
+      y: 69.0
+      z: 242.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705061566544
+    particle: ENCHANTMENT_TABLE
+    randomradius: 0
+    inventory:
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM249 SAW§e ▪ «300»
+          lore:
+          - §e'MURICA
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+  opdrop4:
+    chance:
+      '0': 100
+      '9': 100
+      '11': 100
+      '13': 100
+      '15': 100
+      '17': 100
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: EAST
+    holo: '&7&l&kAA&c&l OP&r&ldrop &r&7&l&kAA&r'
+    time: 75
+    protectionTime: 0
+    position:
+      world: world
+      x: -389.0
+      y: 71.0
+      z: 280.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1705061566541
+    particle: ENCHANTMENT_TABLE
+    randomradius: 0
+    inventory:
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM249 SAW§e ▪ «300»
+          lore:
+          - §e'MURICA
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM4A1 Carbine§e ▪ «30»
+          lore:
+          - §eThe best commie-killer around!
+          - §eSpray bullets at your enemy.
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDesert Eagle§e «7 | 7»
+          lore:
+          - §eDual pistols.
+          - §eLeft/right click to shoot.
+          - §eShoot enemies in the back
+          - §efor bonus backstab damage.
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE_TORCH_ON
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eHarrier Strike§e
+          lore:
+          - §eCalls in an airstrike at the
+          - §eposition of the thrown flare.
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eRiot Shield§e
+          lore:
+          - §eBlocks all melee and ranged attacks.
+          - §eIneffective against attacks from behind.
+  awpdrop:
+    chance:
+      '1': 100
+      '3': 100
+      '5': 100
+      '7': 100
+      '9': 100
+      '11': 100
+      '13': 100
+      '15': 100
+      '17': 100
+      '19': 100
+      '21': 100
+      '23': 100
+      '25': 100
+    fall: true
+    type: CHEST
+    respawn_cmd: true
+    respawn_natural: true
+    take_message: true
+    direction: NORTH
+    holo: '&7&l&kAA&r&4&l AWP&r&c&ldrop &r&7&l&kAA&r'
+    time: 43200
+    protectionTime: 0
+    position:
+      world: world
+      x: -924.0
+      y: 63.0
+      z: 1186.0
+      pitch: 0.0
+      yaw: 0.0
+    lastreset: 1704977200951
+    particle: CRIT_MAGIC
+    randomradius: 0
+    inventory:
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+      '3':
+        ==: org.bukkit.inventory.ItemStack
+        type: GLOWSTONE
+      '5':
+        ==: org.bukkit.inventory.ItemStack
+        type: GLOWSTONE
+      '7':
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: GLOWSTONE
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_BARDING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAWP§e «5»
+          lore:
+          - §eYou better have been practicing them flicks!
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: GLOWSTONE
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+      '19':
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK
+      '21':
+        ==: org.bukkit.inventory.ItemStack
+        type: GLOWSTONE
+      '23':
+        ==: org.bukkit.inventory.ItemStack
+        type: GLOWSTONE
+      '25':
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_BLOCK

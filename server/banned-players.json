@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "c706c22d-7a4a-3b42-ad14-c934e67b14d0",
+    "name": "miwi",
+    "created": "2024-01-17 18:19:48 +0000",
+    "source": "CONSOLE",
+    "expires": "2024-01-24 18:19:48 +0000",
+    "reason": "Check Revolt for details!"
+  }
+]
